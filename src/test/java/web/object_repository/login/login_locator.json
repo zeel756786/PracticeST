@@ -1,0 +1,69 @@
+{
+  "email": {
+    "platform": "web",
+    "element_type": "text_box",
+    "locator_type": "xpath",
+    "locator_value": "//input[@name='username']"
+  },
+  "password": {
+    "platform": "web",
+    "element_type": "text_box",
+    "locator_type": "xpath",
+    "locator_value": ".//input[@name='password']"
+  },
+  "sign_in_button": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "locator_value": ".//button[contains(.,'Sign in')]"
+  },
+
+  "homepage_title": {
+    "platform": "web",
+    "element_type": "text",
+    "locator_type": "xpath",
+    "locator_value": "//h2[contains(.,'Projects and applications')]"
+  },
+  "invalid_error_message": {
+    "platform": "web",
+    "element_type": "text",
+    "locator_type": "xpath",
+    "locator_value": ".//div[text()='Email address or password is invalid. Please check and try again.']"
+  },
+  "tour_welcome_screen": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "locator_value": "//div[contains(@class,\"uf-modal uf-visible\")]"
+  },
+  "tour_welcome_screen_close_button": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "locator_value": "//div[contains(@class,\"uf-modal uf-visible\")]/div/button[@class=\"uf-close-button\"]"
+  },
+  "login_with_google": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "locator_value": "//div[@title='Google']"
+  },
+  "user_name": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "locator_value": "//*[text()='Ankit Patel']"
+  },
+  "sign_out_button": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "locator_value": "//*[text()='Sign out']"
+  },
+  "sign_out_yes_button": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "locator_value": "//*[text()=\"Yes\"]"
+  }
+}
