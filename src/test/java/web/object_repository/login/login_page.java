@@ -23,6 +23,7 @@ public class login_page {
     @MethodsData(method_id = "button_1")
     public void verify_login_with_email_link_is_present_on_page() {
         verify.element_is_present("login_with_email");
+        element.click("login_with_email");
     }
 
 
