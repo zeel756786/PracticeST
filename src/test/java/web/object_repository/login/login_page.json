@@ -1,0 +1,9 @@
+{
+  "login_with_email_link": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text",
+    "platform": "web",
+    "web_locator": "//a[normalize-space()='Login with Email']",
+  }
+}

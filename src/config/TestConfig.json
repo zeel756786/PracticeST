@@ -1,54 +1,17 @@
 {
-  "run": "chromeConfig",
+  "run": "samhita_onboading_uat",
   "config": {
-    "chromeConfig": {
+    "samhita_onboading_uat": {
       "platform": "web",
       "browser": "chrome",
-      "capabilities": {},
-      "env": "https://quality.dhiwise.com/signin",
+      "capabilities": {
+        "browserName": "Chrome",
+        "browserVersion": "105",
+        "projectName": "Nevvon Web Test"
+      },
+      "env": "https://uat-uim-samhita.pacewisdom.in/login",
       "isGrid": false,
-      "gridURL": "",
-      "viewPort": "",
-      "suite": [
-        ""
-      ]
-    },
-    "smokeConfig": {
-      "platform": "web",
-      "browser": "chrome",
-      "capabilities": {},
-      "env": "",
-      "isGrid": "",
-      "gridURL": "",
-      "viewPort": "",
-      "suite": [
-        "smoke.xml"
-      ]
-    },
-    "abcd": {
-      "platform": "android",
-      "capabilities": {
-        "platformName": "android",
-        "appium:app": "/Users/viralpatel/Viral/QAbleAutomation/src/test/java/suites/FLappv1.41.0(421).apk",
-        "appium:deviceName": "emulator-5554",
-        "appium:platformVersion": "12.0",
-        "appium:automationName": "UiAutomator2",
-        "appium:adbExecTimeout": 30000
-      },
-      "suite": [],
-      "appiumURL": "http://0.0.0.0:4723/wd/hub"
-    },
-    "iOS": {
-      "platform": "iOS",
-      "capabilities": {
-        "platformName": "iOS",
-        "app": "/Users/viralpatel/Downloads/Upwork/App/FreelancersDM-iphonesimulator-iOS14-1.38.0.14.app",
-        "deviceName": "iPhone 13",
-        "platformVersion": "15.2",
-        "automationName": "XCUITest"
-      },
-      "suite": [],
-      "appiumURL": "http://0.0.0.0:4723/wd/hub"
+      "gridPlatform": "local"
     }
   }
 }
