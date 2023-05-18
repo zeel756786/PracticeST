@@ -1,0 +1,30 @@
+{
+  "project_builder": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-panel-title[text()=' Project Builder '])[1]"
+  },
+  "create_new_project": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[normalize-space()='Create New Project']//parent::button"
+  },
+  "program_list_fecthed_successfully": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[normalize-space()='Create New Project']//parent::button"
+  },
+  "enter_project_name_text_box": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//input[@id='program'])[1]"
+  }
+}

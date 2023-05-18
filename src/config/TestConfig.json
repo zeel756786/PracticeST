@@ -7,7 +7,7 @@
       "capabilities": {
         "browserName": "Chrome",
         "browserVersion": "105",
-        "projectName": "Nevvon Web Test"
+        "projectName": "Samhita Web Test"
       },
       "env": "https://uat-uim-samhita.pacewisdom.in/login",
       "isGrid": false,

@@ -2,8 +2,85 @@
   "login_with_email_link": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[normalize-space()='Login with Email']"
+  },
+  "email_text_box": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
     "element_type": "text",
     "platform": "web",
-    "web_locator": "//a[normalize-space()='Login with Email']",
+    "web_locator": "//input[@data-placeholder='Enter Email Address']"
+  },
+  "password_text_box": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text",
+    "platform": "web",
+    "web_locator": "(//input[@id='mat-input-1'])[1]"
+  },
+  "sign_in_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()=' Sign in ']//parent::button"
+  },
+  "submit_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()=\" submit \"]//parent::button"
+  },
+  "welcome_text": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text",
+    "platform": "web",
+    "web_locator": "//header[normalize-space()='Welcome, Zeel']"
+  },
+  "forgot_pass_link": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[@class='login_passforgot']"
+  },
+  "forget_pass_page_text": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text",
+    "platform": "web",
+    "web_locator": "(//small[text()='Where would you like to recieve your verification code?'])[1]"
+  },
+  "via_email_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()='Via Email']//parent::label"
+  },
+  "email_text_box_forgot_password": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text_box",
+    "platform": "web",
+    "web_locator": "//input[@ng-reflect-placeholder='Enter Email Address']"
+  },
+  "send_otp_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()=' Send OTP ']//parent::button"
+  },
+  "reset_password_page": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text",
+    "platform": "web",
+    "web_locator": "//p[text()=' Please set a new password. ']"
   }
 }
