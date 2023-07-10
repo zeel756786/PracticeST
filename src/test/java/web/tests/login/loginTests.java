@@ -34,6 +34,7 @@ public class loginTests extends base {
         login.verify_sign_in_button_is_present_on_page();
         login.performLogin(userName, password);
         login.verify_submit_button_is_present_on_page();
+        login.enter_static_otp("123456");
         login.click_on_submit_button();
         login.verify_welcome_text_is_present_on_page();
     }

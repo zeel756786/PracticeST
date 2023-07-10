@@ -1,0 +1,156 @@
+{
+  "participant_module": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//mat-expansion-panel-header[@id='mat-expansion-panel-header-5']"
+  },
+  "onboard_participant_module": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(text(),'Onboard Participant')]"
+  },
+  "bulk_onboard_participant": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()=' Bulk Participant Onboarding ']//parent::button"
+  },
+  "browse_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//label[normalize-space()='Browse'])[1]"
+  },
+  "true_status": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text",
+    "platform": "web",
+    "web_locator": "(//tbody/tr[1]//td[2])//div[text()='true ']"
+  },
+  "single_on_board_participant": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()=' Onboard Participant']//parent::label"
+  },
+  "first_name_check_box": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//input[@data-placeholder='Enter Name'])[1]"
+  },
+  "last_name_check_box": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//input[@data-placeholder='Enter Name'])[3]"
+  },
+  "ip_id_text_box": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//input[@data-placeholder='Enter IP Id']"
+  },
+  "onboarding_text_box": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//input[@ng-reflect-name='onboarding_date']"
+  },
+  "continue_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[normalize-space()='Continue']//parent::button"
+  },
+  "submit_button_on_second_page": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//button[@type='submit']/span[contains(text(),'Submit')]"
+  },
+  "confirm_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[ text()=' Confirm ']//parent::button"
+  },
+  "otp_consent_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//button[@type=\"submit\"]//span[contains(text(),' OTP Consent')]"
+  },
+  "otp_first": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//div[@class=\"otp-container ng-star-inserted\"]//input)[1]"
+  },
+  "otp_second": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//div[@class=\"otp-container ng-star-inserted\"]//input)[2]"
+  },
+  "otp_third": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//div[@class=\"otp-container ng-star-inserted\"]//input)[3]"
+  },
+  "otp_fourth": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//div[@class=\"otp-container ng-star-inserted\"]//input)[4]"
+  },
+  "otp_fifth": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//div[@class=\"otp-container ng-star-inserted\"]//input)[5]"
+  },
+  "otp_sixth": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//div[@class=\"otp-container ng-star-inserted\"]//input)[6]"
+  },
+  "authenticate_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()=' authenticate ']//parent::button"
+  },
+  "cancel_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()=' Cancel ']//parent::button"
+  }
+}
