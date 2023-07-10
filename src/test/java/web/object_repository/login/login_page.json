@@ -89,5 +89,47 @@
     "element_type": "text",
     "platform": "web",
     "web_locator": "//p[text()=' Please set a new password. ']"
+  },
+  "otp_first": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//div[@class=\"otp-container ng-star-inserted\"]//input)[1]"
+  },
+  "otp_second": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//div[@class=\"otp-container ng-star-inserted\"]//input)[2]"
+  },
+  "otp_third": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//div[@class=\"otp-container ng-star-inserted\"]//input)[3]"
+  },
+  "otp_fourth": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//div[@class=\"otp-container ng-star-inserted\"]//input)[4]"
+  },
+  "otp_fifth": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//div[@class=\"otp-container ng-star-inserted\"]//input)[5]"
+  },
+  "otp_sixth": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//div[@class=\"otp-container ng-star-inserted\"]//input)[6]"
   }
 }

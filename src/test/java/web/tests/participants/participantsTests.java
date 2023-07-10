@@ -41,12 +41,17 @@ public class participantsTests extends base {
 
         login.verify_login_with_email_link_is_present_on_page();
         login.performLogin(userName, password);
+        login.verify_submit_button_is_present_on_page();
+        login.enter_static_otp("123456");
         login.click_on_submit_button();
         participants.verify_participants_module_is_present_on_page();
         participants.click_on_onboard_participant();
         participants.click_on_bulk_onboard_participant();
+        participants.click_on_select_project_to_enroll_participants();
+        participants.select_first_project();
         participants.click_on_browse_button();
         participants.FileUpload();
+        participants.click_on_yes_button_of_participant_onboard_enroll_pop_up();
         participants.verify_status_should_display_as_true();
     }
 
@@ -59,6 +64,8 @@ public class participantsTests extends base {
 
         login.verify_login_with_email_link_is_present_on_page();
         login.performLogin(userName, password);
+        login.verify_submit_button_is_present_on_page();
+        login.enter_static_otp("123456");
         login.click_on_submit_button();
         participants.verify_participants_module_is_present_on_page();
         participants.click_on_onboard_participant();
@@ -70,9 +77,6 @@ public class participantsTests extends base {
         participants.click_on_continue_button();
         participants.click_on_submit_button();
         participants.click_on_confirm_button();
-        participants.click_on_OTP_consent_button();
-        participants.enter_otp_value("1");
-        participants.click_on_authenticate();
-        participants.click_on_cancel_button();
+        participants.click_on_cross_icon();
     }
 }

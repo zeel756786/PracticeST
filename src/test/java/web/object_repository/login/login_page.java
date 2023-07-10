@@ -78,12 +78,18 @@ public class login_page {
 
     @MethodsData(method_id = "button_1")
     public void enter_static_otp(String text_to_enter) {
-        element.enter_text("otp_text_box",text_to_enter);
+//        element.enter_text("otp_text_box",text_to_enter);
+        element.enter_text("otp_first",text_to_enter);
+        element.enter_text("otp_second",text_to_enter);
+        element.enter_text("otp_third",text_to_enter);
+        element.enter_text("otp_fourth",text_to_enter);
+        element.enter_text("otp_fifth",text_to_enter);
+        element.enter_text("otp_sixth",text_to_enter);
     }
 
     @MethodsData(method_id = "button_1")
     public void click_on_submit_button() {
-        wait.wait_for_second(10);
+        wait.wait_for_second(5);
         element.click("submit_button");
         wait.wait_for_second(5);
     }

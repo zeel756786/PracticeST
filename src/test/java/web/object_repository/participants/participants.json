@@ -20,6 +20,38 @@
     "platform": "web",
     "web_locator": "//span[text()=' Bulk Participant Onboarding ']//parent::button"
   },
+
+  "select_project_to_enroll": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-select[@role='combobox'])[1]"
+  },
+
+  "loader": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//div[@class='cdk-overlay-container'])[1]"
+  },
+
+  "yes_button_of_pop_up": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//button[normalize-space()='Yes'])[1]"
+  },
+
+  "first_project": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-option[@id='mat-option-18'])[1]"
+  },
   "browse_button": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
@@ -88,7 +120,15 @@
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//span[ text()=' Confirm ']//parent::button"
+    "web_locator": "(//button[@type='submit'])[3]"
+  },
+
+  "cross_icon": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//button[@aria-label='Close'])[1]"
   },
   "otp_consent_button": {
     "objectGenerate": "generate",

@@ -34,12 +34,38 @@ public class participants {
     public void click_on_onboard_participant() {
         verify.element_is_present("onboard_participant_module");
         element.click("onboard_participant_module");
+        wait.wait_for_second(5);
     }
 
     @MethodsData(method_id = "button_1")
     public void click_on_bulk_onboard_participant() {
         verify.element_is_present("bulk_onboard_participant");
         element.click("bulk_onboard_participant");
+        wait.wait_for_second(2);
+    }
+
+    @MethodsData(method_id = "button_1")
+    public void click_on_select_project_to_enroll_participants() {
+        wait.wait_until_element_is_disappear("loader");
+        wait.wait_until_element_is_clickable("select_project_to_enroll");
+        element.click("select_project_to_enroll");
+        wait.wait_for_second(2);
+    }
+
+    @MethodsData(method_id = "button_1")
+    public void click_on_yes_button_of_participant_onboard_enroll_pop_up() {
+        wait.wait_until_element_is_clickable("yes_button_of_pop_up");
+        element.click("yes_button_of_pop_up");
+        wait.wait_for_second(2);
+    }
+
+
+
+    @MethodsData(method_id = "button_1")
+    public void select_first_project() {
+        wait.wait_for_second(2);
+        verify.element_is_present("first_project");
+        element.click("first_project");
         wait.wait_for_second(2);
     }
     @MethodsData(method_id = "button_1")
@@ -118,6 +144,12 @@ public class participants {
     public void click_on_confirm_button() {
         wait.wait_until_element_is_visible("confirm_button");
         element.click("confirm_button");
+    }
+
+    @MethodsData(method_id = "button_1")
+    public void click_on_cross_icon() {
+        wait.wait_until_element_is_visible("cross_icon");
+        element.click("cross_icon");
     }
 
     @MethodsData(method_id = "button_1")
