@@ -33,15 +33,15 @@ public class project_builder {
     }
 
     @MethodsData(method_id = "button_1")
-    public void click_on_enter_project_name_text_box(String text_to_enter) {
-        element.click("create_new_project");
-        element.enter_text("create_new_project",text_to_enter);
-        wait.wait_for_second(10);
+    public void verify_user_is_on_project_list_page() {
+       verify.element_is_present("program_list");
     }
 
     @MethodsData(method_id = "button_1")
-    public void verify_program_list_fecthed_successfully_pop_up() {
-       verify.element_is_present("program_list_fecthed_successfully");
+    public void click_on_project_name_filter(String text_to_enter) {
+        wait.wait_until_element_is_visible("project_name_filter");
+        element.click("project_name_filter");
+        element.enter_text("project_name_filter",text_to_enter);
     }
 
 

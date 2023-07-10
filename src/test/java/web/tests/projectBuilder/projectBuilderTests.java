@@ -35,10 +35,8 @@ public class projectBuilderTests extends base {
       login.performLogin(userName, password);
       login.click_on_submit_button();
       project_builder.verify_project_builder_module_is_present_on_page();
-      project_builder.verify_program_list_fecthed_successfully_pop_up();
-      project_builder.click_on_create_new_project_button();
-      project_builder.click_on_enter_project_name_text_box("Test Automation project");
-
+      project_builder.verify_user_is_on_project_list_page();
+      project_builder.click_on_project_name_filter("Test Automation project");
 
    }
 
