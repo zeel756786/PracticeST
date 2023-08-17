@@ -6,12 +6,16 @@
       "browser": "chrome",
       "capabilities": {
         "browserName": "Chrome",
-        "browserVersion": "105",
+        "browserVersion": "116",
         "projectName": "Samhita Web Test"
       },
       "env": "https://uat-uim-samhita.pacewisdom.in/login",
       "isGrid": false,
-      "gridPlatform": "local"
+      "gridPlatform": "local",
+      "testNGsuite": [
+        "smoke.xml"
+      ],
+      "tesboReportKey" : "aR6Dz1zie0UwYIxh0IsL9dU47q71Dagw"
     }
   }
 }

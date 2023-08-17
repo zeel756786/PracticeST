@@ -77,6 +77,11 @@ public class login_page {
     }
 
     @MethodsData(method_id = "button_1")
+    public void verify_invalid_user_cred_pop_up() {
+        wait.wait_until_element_is_visible("invalid_user_cred_pop_up");
+    }
+
+    @MethodsData(method_id = "button_1")
     public void enter_static_otp(String text_to_enter) {
 //        element.enter_text("otp_text_box",text_to_enter);
         element.enter_text("otp_first",text_to_enter);

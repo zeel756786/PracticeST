@@ -39,6 +39,30 @@ public class loginTests extends base {
         login.verify_welcome_text_is_present_on_page();
     }
 
+    @DataProvider(name = "invalid_login_credentials")
+    public Object[][] data_provider_login() {
+        json_file_reader config = new json_file_reader();
+        DataReader reader = new DataReader();
+        Object[][] data = null;
+        if (config.getEnvFromCurrentConfig().contains("uat") || config.getEnvFromCurrentConfig().contains("uim")) {
+            data = reader.getExcelDataForDataProvider("Samhita_onboarding.xlsx", 1);
+        }
+        return data;
+    }
+
+    @Test(dataProvider = "invalid_login_credentials")
+    public void Verify_login_with_invalid_credentials(String userName, String password) {
+        login_page login = new login_page(driver);
+
+        login.verify_login_with_email_link_is_present_on_page();
+        login.verify_email_text_box_is_present_on_page();
+        login.verify_password_text_box_is_present_on_page();
+        login.verify_sign_in_button_is_present_on_page();
+        login.performLogin(userName, password);
+        login.verify_invalid_user_cred_pop_up();
+    }
+
+
     @Test(dataProvider = "login_credentials")
     public void Verify_when_click_on_forget_password_link(String userName, String password) {
         login_page login = new login_page(driver);
