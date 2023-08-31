@@ -1,11 +1,47 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name = "Smoke ">
-    <test name = "QAblepoint">
+    <test name = "Verify_login_with_valid_credentials">
         <classes>
-            <class name = "web.tests.login.invalid_login_test" >
+            <class name = "web.tests.login.loginTests" >
                 <methods>
-                    <include name="search_page"></include>
+                    <include name="Verify_login_with_valid_credentials"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify_login_with_invalid_credentials">
+        <classes>
+            <class name = "web.tests.login.loginTests" >
+                <methods>
+                    <include name="Verify_login_with_invalid_credentials"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "verify_when_click_on_project_builder">
+        <classes>
+            <class name = "web.tests.projectBuilder.projectBuilderTests" >
+                <methods>
+                    <include name="verify_when_click_on_project_builder"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "verify_participant_bulk_on_boarding_scenario">
+        <classes>
+            <class name = "web.tests.participants.participantsTests" >
+                <methods>
+                    <include name="verify_participant_bulk_on_boarding_scenario"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "verify_participant_single_on_boarding_scenario">
+        <classes>
+            <class name = "web.tests.participants.participantsTests" >
+                <methods>
+                    <include name="verify_participant_single_on_boarding_scenario"></include>
                 </methods>
             </class>
         </classes>

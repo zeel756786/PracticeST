@@ -1,0 +1,353 @@
+{
+  "ip_management_tab": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-panel-title[text()=\" IP Management \"])"
+  },
+  "list_of_ip": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[text()=\"List of IP\"]"
+  },
+  "add_ip": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a//span[text()=\"Add Implementation Partner\"]"
+  },
+  "add_ip_pop_up": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//h2//span[text()=\"Add Implementation Partner\"]"
+  },
+  "company_name_text_box": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "textbox",
+    "platform": "web",
+    "web_locator": "//input[@data-placeholder=\"Enter Company Name\"]"
+  },
+  "registered_office_state": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-select[@role=\"combobox\"])[2]"
+  },
+  "first_state": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//mat-option[@role=\"option\"][1]"
+  },
+  "year_of_registration": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-select[@role=\"combobox\"])[3]"
+  },
+
+  "select_any_year": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-option[@role=\"option\"])[2]"
+  },
+  "company_details": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//div[contains(text(),'Company Details')]"
+  },
+  "primary_area_of_focus": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-select[@role=\"combobox\"])[4]"
+  },
+  "select_skill_building": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-option[@role=\"option\"])[6]"
+  },
+
+  "primary_participants": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-select[@role=\"combobox\"])[5]"
+  },
+  "address_line_1": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//input[@formcontrolname=\"address_line1\"]"
+  },
+  "address_line_2": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text_box",
+    "platform": "web",
+    "web_locator": "//input[@formcontrolname=\"address_line2\"]"
+  },
+  "blank_space": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text",
+    "platform": "web",
+    "web_locator": "//div[contains(text(),\"Company Details\")]"
+  },
+  "select_first_participant": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-option[@role=\"option\"])[6]"
+  },
+  "select_state": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-select[@role=\"combobox\"])[6]"
+  },
+  "first_state": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//mat-option[@role=\"option\"][2]"
+  },
+  "select_district": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//div[@id=\"mat-select-value-19\"]"
+  },
+  "mp_district": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[contains(text(),\"Agar Malwa\")]"
+  },
+  "city": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//input[@formcontrolname=\"city\"]"
+  },
+  "pincode": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//input[@formcontrolname=\"pin_code\"]"
+  },
+  "company_pan": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//input[@formcontrolname=\"pan\"]"
+  },
+  "continue_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//button[@type=\"submit\"])[1]"
+  },
+  "list_box": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//div[@role=\"listbox\"]"
+  },
+  "fn_of_cpd": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//input[@formcontrolname=\"first_name\"]"
+  },
+
+  "ln_of_cpd": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//input[@formcontrolname=\"last_name\"]"
+  },
+
+  "mobile_num_of_cpd": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//input[@formcontrolname=\"phone\"]"
+  },
+
+  "dob_cpd": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//button[@class=\"mat-focus-indicator mat-icon-button mat-button-base _mat-animation-noopable\"])[1]"
+  },
+
+  "select_date_nine": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//*[text()=\" 9 \"]"
+  },
+
+  "gender_cpd": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//mat-select[@formcontrolname=\"gender\"]"
+  },
+
+  "female": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()=\"Female\"]"
+  },
+
+  "martial_status": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//mat-select[@formcontrolname=\"marial_status\"]"
+  },
+
+  "single_option": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()=\"Single\"]"
+  },
+
+  "email_id_of_cpd": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//input[@formcontrolname=\"email\"]"
+  },
+
+  "cross_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//button[@type=\"button\"])[3]"
+  },
+
+  "add_agent_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()='Add Agent']//parent::a"
+  },
+
+  "add_agent_pop_up": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()='Add Agent']//parent::h2"
+  },
+
+  "select_ip": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//mat-select[@formcontrolname=\"ip_id\"]"
+  },
+
+  "pw_ip": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()='Pacewisdom']"
+  },
+
+  "pin_agent": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//input[@formcontrolname=\"pincode\"])[1]"
+  },
+
+  "amethi_city": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()='Amethi']"
+  },
+
+  "continue_button_agent": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//span[text()=' Continue '])[2]"
+  },
+
+  "agent_created_successfully_pop_up": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//*[contains(text(),' Agent Created Successfully ')]"
+  },
+
+  "mobile_number_already_exist_pop_up": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//*[contains(text(),'mobile number already exists')])[2]"
+  },
+
+  "email_already_exist_pop_up": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//*[contains(text(),' email  already exists ')])[2]"
+  }
+}

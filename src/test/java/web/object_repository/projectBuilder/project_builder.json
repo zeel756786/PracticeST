@@ -18,7 +18,7 @@
     "locator_type": "xpath",
     "element_type": "text",
     "platform": "web",
-    "web_locator": "//h1[text()=' Project List ']"
+    "web_locator": "//*[text()=' Project List ']"
   },
   "enter_project_name_text_box": {
     "objectGenerate": "generate",
@@ -26,5 +26,93 @@
     "element_type": "button",
     "platform": "web",
     "web_locator": "//input[@placeholder=\"Project Name\"]"
+  },
+  "create_project_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//button//span[contains(text(),'Create New Project')]"
+  },
+
+  "project_list_fetched_success_fully": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text",
+    "platform": "web",
+    "web_locator": "//*[contains(text(),\"Program List Fetched Successfully\")]"
+  },
+
+  "samhita_logo": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "image",
+    "platform": "web",
+    "web_locator": "(//img[@src='../../../../assets/img/icons/samhita-logo-cover.png'])[1]"
+  },
+
+  "project_name_text_box": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text_box",
+    "platform": "web",
+    "web_locator": "//input[@placeholder='Enter Project Name']"
+  },
+
+    "entity_details": {
+      "objectGenerate": "generate",
+      "locator_type": "xpath",
+      "element_type": "button",
+      "platform": "web",
+      "web_locator": "(//button[normalize-space()='Entity Details'])[1]"
+  },
+  "select_funder": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//ng-select[@placeholder='Select Funder'])[1]"
+  },
+  "first_funder": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//div[@role='option'])[1]"
+  },
+  "add_entity_type_button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()='Add entity type']//parent::div"
+  },
+  "entity_as_ip": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//span[text()='Implementation Partner']//parent::div"
+  },
+  "entity_as_funder": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//input[@aria-autocomplete=\"list\"])[6]"
+  },
+  "select_ip": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//input[@aria-autocomplete='list'])[7]"
+  },
+  "first_ip": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//input[@aria-autocomplete='list'])[7]"
   }
 }

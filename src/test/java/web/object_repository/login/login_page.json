@@ -131,5 +131,12 @@
     "element_type": "button",
     "platform": "web",
     "web_locator": "(//div[@class=\"otp-container ng-star-inserted\"]//input)[6]"
+  },
+  "invalid_user_cred_pop_up": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text",
+    "platform": "web",
+    "web_locator": "//*[contains(text(),\" Invalid user credentials. \")]"
   }
 }
