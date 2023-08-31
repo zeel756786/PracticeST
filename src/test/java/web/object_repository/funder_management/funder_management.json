@@ -1,96 +1,130 @@
 {
-  "ip_management_tab": {
+  "funder_management_tab": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "(//mat-panel-title[text()=\" IP Management \"])"
+    "web_locator": "//mat-panel-title[text()=' Funder Management ']"
   },
-  "list_of_ip": {
+  "list_of_funders": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//a[text()=\"List of IP\"]"
+    "web_locator": "//a[text()=\"List of Funders\"]"
   },
-  "add_ip": {
+  "add_funder": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//a//span[text()=\"Add Implementation Partner\"]"
+    "web_locator": "//span[text()=\"Add Funder\"]"
   },
-  "add_ip_pop_up": {
+  "add_funder_text": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
-    "element_type": "button",
+    "element_type": "text",
     "platform": "web",
-    "web_locator": "//h2//span[text()=\"Add Implementation Partner\"]"
+    "web_locator": "//span[text()='Add Funder']//parent::h2"
   },
-  "company_name_text_box": {
+  "company_name": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
-    "element_type": "textbox",
+    "element_type": "text",
     "platform": "web",
-    "web_locator": "//input[@data-placeholder=\"Enter Company Name\"]"
+    "web_locator": "//input[@formcontrolname=\"company_name\"]"
   },
   "registered_office_state": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "(//mat-select[@role=\"combobox\"])[2]"
+    "web_locator": "(//div[@id='mat-select-value-9'])[1]"
   },
   "first_state": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//mat-option[@role=\"option\"][1]"
+    "web_locator": "//mat-option[@role=\"option\"][2]"
   },
   "year_of_registration": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "(//mat-select[@role=\"combobox\"])[3]"
+    "web_locator": "(//mat-select[@formcontrolname=\"year_of_registration\"]/..//div)[1]"
   },
-
   "select_any_year": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "(//mat-option[@role=\"option\"])[2]"
+    "web_locator": "(//span[@class='mat-option-text'][normalize-space()='1974'])[1]"
   },
-  "company_details": {
+  "org_description": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//div[contains(text(),'Company Details')]"
+    "web_locator": "//input[@formcontrolname=\"organisation_description\"]"
   },
-  "primary_area_of_focus": {
+  "select_sector": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
     "web_locator": "(//mat-select[@role=\"combobox\"])[4]"
   },
-  "select_skill_building": {
+  "select_state_in_which_csr_conducted": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-select[@role=\"combobox\"])[5]"
+  },
+  "first_state": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-option[@role=\"option\"])[1]"
+  },
+  "primary_area_of_focus": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-select[@role=\"combobox\"])[6]"
+  },
+  "select_primary_area_of_focus": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
     "web_locator": "(//mat-option[@role=\"option\"])[6]"
   },
-
   "primary_participants": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "(//mat-select[@role=\"combobox\"])[5]"
+    "web_locator": "(//mat-select[@role=\"combobox\"])[7]"
+  },
+
+  "select_any_skill": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//mat-option[@role=\"option\"][2]"
+  },
+  "select_any_primary_participants": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-option[@role=\"option\"])[1]"
   },
   "address_line_1": {
     "objectGenerate": "generate",
@@ -106,40 +140,26 @@
     "platform": "web",
     "web_locator": "//input[@formcontrolname=\"address_line2\"]"
   },
-  "blank_space": {
-    "objectGenerate": "generate",
-    "locator_type": "xpath",
-    "element_type": "text",
-    "platform": "web",
-    "web_locator": "//div[contains(text(),\"Company Details\")]"
-  },
-  "select_first_participant": {
-    "objectGenerate": "generate",
-    "locator_type": "xpath",
-    "element_type": "button",
-    "platform": "web",
-    "web_locator": "(//mat-option[@role=\"option\"])[6]"
-  },
   "select_state": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "(//mat-select[@role=\"combobox\"])[6]"
+    "web_locator": "(//mat-select[@role=\"combobox\"])[8]"
   },
   "first_state": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//mat-option[@role=\"option\"][2]"
+    "web_locator": "//span[contains(text(),\"Madhya Pradesh\")]"
   },
   "select_district": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//div[@id=\"mat-select-value-19\"]"
+    "web_locator": "(//mat-select[@role=\"combobox\"])[9]"
   },
   "mp_district": {
     "objectGenerate": "generate",
@@ -176,13 +196,7 @@
     "platform": "web",
     "web_locator": "(//button[@type=\"submit\"])[1]"
   },
-  "list_box": {
-    "objectGenerate": "generate",
-    "locator_type": "xpath",
-    "element_type": "button",
-    "platform": "web",
-    "web_locator": "//div[@role=\"listbox\"]"
-  },
+
   "fn_of_cpd": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
@@ -254,7 +268,6 @@
     "platform": "web",
     "web_locator": "//span[text()=\"Single\"]"
   },
-
   "email_id_of_cpd": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
@@ -263,91 +276,160 @@
     "web_locator": "//input[@formcontrolname=\"email\"]"
   },
 
-  "cross_button": {
+  "designation_of_cpd": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "(//button[@type=\"button\"])[3]"
+    "web_locator": "//input[@formcontrolname=\"designation\"]"
   },
 
-  "add_agent_button": {
+  "address_line_1_cpd": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//span[text()='Add Agent']//parent::a"
+    "web_locator": "//input[@formcontrolname=\"address_line_1\"]"
   },
-
-  "add_agent_pop_up": {
+  "address_line_2_cpd": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//span[text()='Add Agent']//parent::h2"
+    "web_locator": "//input[@formcontrolname=\"address_line_2\"]"
   },
-
-  "select_ip": {
+  "select_state_cpd": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//mat-select[@formcontrolname=\"ip_id\"]"
+    "web_locator": "(//mat-select[@role=\"combobox\"])[12]"
   },
-
-  "pw_ip": {
+  "first_state_cpd": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//span[text()='Pacewisdom']"
+    "web_locator": "(//mat-option[@role=\"option\"])[9]"
   },
-
-  "pin_agent": {
+  "select_district_cpd": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-select[@role=\"combobox\"])[13]"
+  },
+  "ahmd_district_cpd": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-option[@role=\"option\"])[1]"
+  },
+  "select_city": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-option[@role=\"option\"])[1]"
+  },
+  "city_cpd": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//input[@formcontrolname=\"city_id\"]"
+  },
+  "select_city_cpd": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-option[@role=\"option\"])[3]"
+  },
+  "pincode_cpd": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
     "web_locator": "(//input[@formcontrolname=\"pincode\"])[1]"
   },
-
-  "amethi_city": {
+  "continue_button_cpd": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//span[text()='Amethi']"
+    "web_locator": "(//button[@type=\"submit\"])[2]"
+  },
+  "funder_details_added_pop_up": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//div[text()=' Funder Details have been added. ']"
+  },
+  "action_meat_ball": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//mat-icon[@role=\"img\"])[1]"
+  },
+  "edit_option": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//button[@role=\"menuitem\"][1]"
+  },
+  "delete_option": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//button[@role=\"menuitem\"][2]"
   },
 
-  "continue_button_agent": {
+  "delete_pop_up": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "(//span[text()=' Continue '])[2]"
+    "web_locator": "//span[text()=' Delete']"
   },
-
-  "agent_created_successfully_pop_up": {
+  "delete_button_of_pop_up": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
     "element_type": "button",
     "platform": "web",
-    "web_locator": "//*[contains(text(),' Agent Created Successfully ')]"
+    "web_locator": "//span[text()=' Delete ']"
   },
-
-  "mobile_number_already_exist_pop_up": {
+  "funder_deleted_toast_msg": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
-    "element_type": "button",
+    "element_type": "text",
     "platform": "web",
-    "web_locator": "(//*[contains(text(),'mobile number already exists')])[2]"
+    "web_locator": "//*[@aria-label=\"Distributor deactivated successfully\"]"
   },
-
-  "email_already_exist_pop_up": {
+  "funder_cpd_updated_toast_msg": {
     "objectGenerate": "generate",
     "locator_type": "xpath",
-    "element_type": "button",
+    "element_type": "text",
     "platform": "web",
-    "web_locator": "(//*[contains(text(),' email  already exists ')])[2]"
+    "web_locator": "//*[@aria-label=\"Funder Admin Updated Successfully\"]"
+  },
+  "edit_funder_pop_up": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text",
+    "platform": "web",
+    "web_locator": "//span[text()='Edit Funder']"
+  },
+  "company_details_edited": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text",
+    "platform": "web",
+    "web_locator": "//*[@aria-label=\"Funder Details are Updated\"]"
   }
 }

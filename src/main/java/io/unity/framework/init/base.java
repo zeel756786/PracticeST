@@ -383,7 +383,7 @@ public static String build_Name;
 
 
         if (!platform.equalsIgnoreCase("api")) {
-            driver.quit();
+          driver.quit();
         }
 
 
